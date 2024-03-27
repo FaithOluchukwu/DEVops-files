@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind </title>
+    <link rel="stylesheet" href="styles/Tailwind.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+
+    <nav class="flex p-5 items-center pb-0">
+
+        <div class="">
+            <h2 class="text-2xl">Tailwindcss</h2>
+        </div>
+
+        <ul class="flex ml-auto gap-6 text-sm">
+            <li>Docs</li>
+            <li>Components</li>
+            <li>Blog</li>
+            <li>Show</li>
+        </ul>
+    </nav>
+
+    <div class="flex flex-col justify-center items-center h-screen">
+        <h1 class="text-5xl font-bold">
+            Rapidly build modern websites <br>
+             without ever leaving your HTML.
+        </h1>
+        <p class="py-6">
+            A utility-first CSS framework packed with classes like <span class="text-cyan-300">flex, pt-4, text-center</span> <br>
+             and rotate-90 that can be composed to build any design, directly in your markup.
+        </p>
+
+        <div class="flex gap-4">
+            <button class="bg-cyan-500 py-2 px-4 rounded-md border-none hover:bg-cyan-700">Get Started</button>
+            <input type="text" placeholder="Quick Search" class="bg-blue-900 text-xs py-2 px-6">
+        </div>
+    </div>
+
+
+    <div class="flex flex-col justify-center items-center h-screen">
+        <h1 class="text-5xl font-extrabold text-white  ">
+            “Best practices” don’t actually work. 
+        </h1>
+        <p class="py-6 font-serif text-lg text-center">
+            I’ve written <span class="text-emerald-400">few thousand words</span>  on why traditional “semantic class names” are the <br>
+             reason CSS is hard to maintain, but the truth is you’re never going to believe me until you <br>
+             actually try it. If you can suppress the urge to retch long enough to give it a chance, I <br> really think you’ll wonder how you ever worked with CSS any other way.
+        </p>
+
+        <div class="flex gap-4">
+            <img src="https://tailwindcss.com/_next/static/media/adam.f69b0b90.jpg" alt="" class="w-14 h-14 rounded-full" loading="lazy" decoding="async">
+            <h1 class="text-lg font-extrabold text-white font-serif  ">
+                Adam Wathan <br> <span class=" text-sm text-black">Creator of Tailwind CSS</span> 
+            </h1>
+            
+            
+        </div>
+    </div>
+
+    
+    <div class=" flex gap-4">
+        
+        <div class="bg-slate-100 rounded-xl p-8 dark:bg-slate-800">
+            <div class="">
+                <img class="w-24 h-24 rounded-full mx-auto" src="https://tailwindcss.com/_next/static/media/ryan-florence.3af9c9d9.jpg" alt="" class="w-14 h-14 rounded-full" loading="lazy" decoding="async">
+                <h1 class="text-xl">
+                    Ryan Florence <br> <span class=" text-lg text-white"> Remix & React Training</span> <br> <span class="text-white">I feel like an idiot for not using Tailwind CSS until now</span> 
+                </h1>
+                
+                
+            </div>
+            
+        </div>
+
+
+        <div class="bg-slate-100 rounded-xl p-8 dark:bg-slate-800">
+            <div class="">
+                <img class="w-24 h-24 rounded-full mx-auto" src="https://tailwindcss.com/_next/static/media/debbie-obrien.69d3104d.jpg" alt="" class="w-14 h-14 rounded-full" loading="lazy" decoding="async">
+                <h1 class="text-xl">
+                    Debbie O'Brien <br> <span class=" text-lg text-white"> Senior Program Manager</span> <br> <span class="text-white">Have been working with CSS for over ten years and <br> Tailwind just makes my life easeier. It is still CSS and <br>you use flex, grid etc. but just quicker to write and<br> maintain</span> 
+                </h1>
+                
+                
+            </div>
+            
+        </div>
+
+        <div class="bg-slate-100 rounded-xl p-8 dark:bg-slate-800">
+            <div class="">
+                <img class="w-24 h-24 rounded-full mx-auto" src="	https://tailwindcss.com/_next/static/media/kentcdodds.90894efe.jpg" alt="" class="w-14 h-14 rounded-full" loading="lazy" decoding="async">
+                <h1 class="text-xl">
+                   Kent C. Dodds <br> <span class=" text-lg text-white"> Developer and Educator</span> <br> <span class="text-white">Skip to the end. Use @tailwind</span> 
+                </h1>
+                
+                
+            </div>
+            
+        </div>
+    
+    </div>
+    <div>
+        <div class="flex justify-between px-10 gap-5 py-10 pt-0">
+            <div class=" w-full bg-blue-500 rounded-lg p-6">
+                <div class=" bg-blue-500 flex gap-3">
+                    <div class=" bg-blue-500">
+                        <img class=" rounded-full w-16" src="https://tailwindcss.com/_next/static/media/kentcdodds.90894efe.jpg" alt="">
+                    </div>
+                    
+            <h2 class=" bg-blue-500"> Ryan Florence</h2>
+            <p class="bg-blue-500">Remix & React Training </p>
+           </div>  
+           <p class="bg-blue-500">I feel like an idiot for not using Tailwind CSS until now</p> 
+                </div>
+
+
+                <div class=" w-full bg-blue-500 h-auto rounded-lg p-6">
+                    <div class=" bg-blue-500 flex gap-3">
+                        <div class=" bg-blue-500">
+                            <img class="rounded-full w-16" src="https://tailwindcss.com/_next/static/media/kentcdodds.90894efe.jpg" alt="">
+                        </div>
+                        
+                <h2 class=" bg-blue-500"> Ryan Florence</h2>
+                <p class="bg-blue-500">Remix & React Training </p>
+               </div>  
+               <p class="bg-blue-500">I feel like an idiot for not using Tailwind CSS until now</p> 
+                    </div>
+
+
+
+
+                    <div class=" w-full bg-blue-500 h-auto rounded-lg p-6">
+                        <div class=" bg-blue-500 flex gap-3">
+                            <div class=" bg-blue-500">
+                                <img class="rounded-full w-16" src="https://tailwindcss.com/_next/static/media/kentcdodds.90894efe.jpg" alt="">
+                            </div>
+                            
+                    <h2 class=" bg-blue-500"> Ryan Florence</h2><br>
+                    <p class="bg-blue-500">Remix & React Training </p>
+                   </div>  
+                   <p class="bg-blue-500">I feel like an idiot for not using Tailwind CSS until now</p> 
+                        </div>
+        </div>
+        
+       
+       
+</body>
+</html>

@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind</title>
+    <link rel="stylesheet" href="styles/tailwind1.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+
+    <nav class="flex p-5 items-center pb-0">
+
+        <div class="">
+            <h2 class="text-4xl text-white">tailwindcss</h2>
+        </div>
+
+        <ul class="flex ml-auto gap-6 text-sm text-white">
+            <li>Docs</li>
+            <li>Components</li>
+            <li>Blog</li>
+            <li>Show</li>
+        </ul>
+    </nav>
+
+    <div class="flex flex-col justify-center items-center h-screen">
+        <h1 class="text-5xl  text-white font-extrabold">
+            Rapidly build modern websites <br>
+             without ever leaving your HTML.
+        </h1>
+        <p class="py-6  text-slate-400">
+            A utility-first CSS framework packed with classes like <span class="text-cyan-300">flex, pt-4, text-center</span> <br>
+             and rotate-90 that can be composed to build any design, directly in your markup.
+        </p>
+
+        <div class="flex gap-4">
+            <button class="bg-cyan-500 py-2 px-4 rounded-md border-none hover:bg-cyan-700">Get Started</button>
+            <input type="text" placeholder="Quick Search" class="bg-blue-900 text-xs py-2 px-6">
+        </div>
+    </div>
+
+
+    <div class="flex flex-col justify-center items-center h-screen">
+        <h1 class="text-5xl font-extrabold text-white  ">
+            “Best practices” don’t actually work. 
+        </h1>
+        <p class="py-6 font-serif text-lg text-center text-slate-300">
+            I’ve written <span class="text-emerald-400">few thousand words</span>  on why traditional “semantic class names” are the <br>
+             reason CSS is hard to maintain, but the truth is you’re never going to believe me until you <br>
+             actually try it. If you can suppress the urge to retch long enough to give it a chance, I <br> really think you’ll wonder how you ever worked with CSS any other way.
+        </p>
+
+        <div class="flex gap-4">
+            <img src="https://tailwindcss.com/_next/static/media/adam.f69b0b90.jpg" alt="" class="w-14 h-14 rounded-full" loading="lazy" decoding="async">
+            <h1 class="text-lg font-extrabold text-white font-serif  ">
+                Adam Wathan <br> <span class=" text-sm text-slate-500">Creator of Tailwind CSS</span> 
+            </h1>
+            
+            
+        </div>
+    </div>
+
+    <div class="flex justify-between  font-sans px-10 gap-5 py-10 pt-0 items-start">
+        <div class="w-full bg-slate-800 rounded-lg p-6">
+            <div class="bg-slate-800  flex gap-3">
+                <div class="bg-slate-800">
+                    <img src="https://tailwindcss.com/_next/static/media/ryan-florence.3af9c9d9.jpg" alt="" class="w-16 rounded-full">
+                </div>
+                <div class="bg-slate-800">
+                    <h2 class="bg-slate-800 font-semibold text-slate-300">Ryan Florence</h2>
+                    <p class="bg-slate-800 mt-0.5 text-gray-400">Remix & React Training</p>
+                </div>
+            </div>
+            <p class="bg-slate-800 text-slate-400 text-sm text-center pt-4">I feel like an idiot for not using Tailwind CSS until now</p>
+        </div>
+
+        <div class="w-full bg-slate-800 h-auto p-6 rounded-lg">
+            <div class="bg-slate-800 flex gap-3">
+                <div class="bg-slate-800">
+                    <img src="https://tailwindcss.com/_next/static/media/debbie-obrien.69d3104d.jpg" alt="" class="w-16 rounded-full">
+                </div>
+                <div class="bg-slate-800 font-sans">
+                    <h2 class="bg-slate-800 font-semibold text-slate-300">Debbie O'Brien</h2>
+                    <p class="bg-slate-800 mt-0.5 text-gray-400">Senior Program Manager at <br> Microsoft</p>
+                </div>
+            </div>
+            <p class="bg-slate-800 text-slate-400 text-sm text-center pt-8 ">
+                Have been working with CSS for over ten years and
+                Tailwind just makes my life easeier. It is still CSS and 
+                you use flex, grid etc. but just quicker to write
+                and maintain
+            </p>
+        </div>
+
+
+        <div class="w-full bg-slate-800 h-auto p-6 rounded-lg">
+            <div class="bg-slate-800 flex gap-3">
+                <div class="bg-slate-800">
+                    <img src="https://tailwindcss.com/_next/static/media/kentcdodds.90894efe.jpg" alt="" class="w-16 rounded-full">
+                </div>
+                <div class="bg-slate-800 font-sans">
+                    <h2 class="bg-slate-800  font-semibold text-slate-300 ">Kent C. Dodds</h2>
+                    <p class="bg-slate-800 mt-0.5 text-gray-400">Developer and Educator</p>
+                </div>
+            </div>
+            <p class="bg-slate-800  font-sans text-slate-400 text-sm text-justify pt-8">Skip to the end. Use @tailwind</p>
+        </div>
+    </div>
+
+    <div class="flex justify-between px-10 gap-5 py-10 pt-0 items-start">
+        <div class="w-full bg-slate-800 rounded-lg p-6">
+            <div class="bg-slate-800  flex gap-3">
+                <div class="bg-slate-800">
+                    <img src="	https://tailwindcss.com/_next/static/media/guillermo-rauch.8a24ab88.jpg" alt="" class="w-16 rounded-full">
+                </div>
+                <div class="bg-slate-800">
+                    <h2 class="bg-slate-800 font-semibold text-slate-300">Guillermo Ranch</h2>
+                    <p class="bg-slate-800 mt-0.5 text-gray-400">Vercel</p>
+                </div>
+            </div>
+            <p class="bg-slate-800  font-sans text-slate-400 text-sm text-justify pt-10">
+                If I had to recommend a way of getting into <br>programming today, it would 
+                be HTML + CSS <br>with TailwindCSS
+            </p>
+        </div>
+
+        <div class="w-full bg-slate-800 h-auto p-6 rounded-lg">
+            <div class="bg-slate-800 flex gap-3">
+                <div class="bg-slate-800 ">
+                    <img src="	https://tailwindcss.com/_next/static/media/frontendben.7c4b54bd.jpg" alt="" class="w-16 rounded-full">
+                </div>
+                <div class="bg-slate-800">
+                    <h2 class="bg-slate-800 font-semibold text-slate-300">Ben Furfie</h2>
+                    <p class="bg-slate-800 mt-0.5 text-gray-400">Developer</p>
+                </div>
+            </div>
+            <p class="bg-slate-800 font-sans text-slate-400 text-sm text-justify pt-10 ">
+                I've been writing CSS for over 20 years, and up until 2017,
+                 the way I wrote it chnaged frequently. 
+                Its not a coincidence TailwindCSS was realized the same year. 
+                It might look like a mistake but spend time with and 
+                you'll realize semantic CSS has a 20 year mistake.
+                
+            </p>
+            <div class=" bg-slate-800 text-center p-4 ">
+                <button class="bg-slate-700 text-white py-2 px-4 rounded-md border-none hover:bg-slate-600">Show more...</button>
+                </div>
+        </div>
+        
+
+        <div class="w-full bg-slate-800 h-auto p-6 rounded-lg">
+            <div class="bg-slate-800 flex gap-3">
+                <div class="bg-slate-800">
+                    <img src="	https://tailwindcss.com/_next/static/media/shrutibalasa.8c3514ba.jpg" alt="" class="w-16 rounded-full">
+                </div>
+                <div class="bg-slate-800">
+                    <h2 class="bg-slate-800 font-semibold text-slate-300">Shruti Balasa</h2>
+                    <p class="bg-slate-800 mt-0.5 text-gray-400">Full Stack Web Develper & Tech <br> Educator</p>
+                </div>
+            </div>
+            <p class="bg-slate-800 font-sans  text-slate-400 text-sm text-justify pt-8">
+                I was bad at front-end until I discovered Tialwind CSS.<br>
+                I have learnt a lot more about design and CSS itself after I <br>
+                started working with Tailwind creating web pages 5 times faster.
+            </p>
+        </div>
+    </div>
+
+
+
+    <div class="flex justify-between  opacity-5 px-10 gap-5 py-10 pt-0 items-grid ">
+        <div class="w-full bg-slate-800 rounded-lg p-6">
+            <div class="bg-slate-800  flex gap-3">
+                <div class="bg-slate-800 ">
+                    <img src="	https://tailwindcss.com/_next/static/media/sara-vieira.e2bfc631.jpg" alt="" class="w-16 rounded-full">
+                </div>
+                <div class="bg-slate-800  "> 
+                    <h2 class="bg-slate-800 font-semibold text-slate-300">Sara Vieira</h2>
+                    <p class="bg-slate-800 mt-0.5 text-gray-400">CodeSandbox</p>
+                </div>
+            </div>
+            <p class="bg-slate-800   font-sans text-slate-400 text-sm text-justify pt-10 ">
+                I have no design skills and with Tailwind I can <br>actually make good looking websites <br>with ease and 
+                it's everything I ever wanted <br> in a CSS framework.
+            </p>
+        </div>
+
+        <div class="w-full  bg-slate-800 h-auto p-6 rounded-lg">
+            <div class="bg-slate-800 flex gap-3">
+                <div class="bg-slate-800 ">
+                    <img src="	https://tailwindcss.com/_next/static/media/didiercatz.5a884729.jpg" alt="" class="w-16 rounded-full">
+                </div>
+                <div class="bg-slate-800">
+                    <h2 class="bg-slate-800 font-semibold text-slate-300">Didier Catz</h2>
+                    <p class="bg-slate-800 mt-0.5 text-gray-400">Co-Founder @StyptApp</p>
+                </div>
+            </div>
+            <p class="bg-slate-800  font-sans text-slate-400 text-justify pt-10 ">
+                Tailwind makes writing code feel like I'm using
+                design tool
+                
+            </p>
+        </div>
+
+
+        <div class="w-full bg-slate-800 h-auto p-6 rounded-lg">
+            <div class="bg-slate-800 flex gap-3">
+                <div class="bg-slate-800">
+                    <img src="	https://tailwindcss.com/_next/static/media/levelsio.a3935ad1.jpg" alt="" class="w-16 rounded-full">
+                </div>
+                <div class="bg-slate-800">
+                    <h2 class="bg-slate-800 font-semibold text-slate-300">Pieter Levels</h2>
+                    <p class="bg-slate-800 mt-0.5 text-gray-400">Maker</p>
+                </div>
+            </div>
+            <p class="bg-slate-800 text-slate-400 text-sm text-justify pt-8">
+                I don't use it but if I would use <br> something I'd use Tailwind.
+            </p>
+        </div>
+    </div>
+
+
+    <div class=" p-10  block text-sm">
+        <img class=" "     src="	https://tailwindcss.com/_next/static/media/constraint-based.90d79a51.png" alt="">
+    </div>
+    <div class=" px-10">
+        <h1 class=" text-2xl font-semibold text-indigo-400"> Constraint-based</h1>
+    </div>
+    <div class=" px-10 py-5 ">
+        <h1 class=" text-white text-5xl font-bold"> An API for your design system</h1>
+
+        <p class="text-slate-500 py-4 text-xl"> Utility classes help you work within the constraints of a system instead of litering your stylesheet <br>
+            with arbitrary values. They make it easy to be consistent with color choices, spacing, typography <br>
+            shadows, and everything else that makes up a well-engineered design system.
+        </p>
+    </div>
+
+    <div class=" p-10  ">
+        <button class="bg-slate-700 text-white py-2 px-4  text-semibold rounded-md border-none hover:bg-slate-500">Learn more <i class=" bg-slate-700 bi bi-chevron-right"></i></button>
+        </div>
+
+    
+    <div class=" flex gap-10  px-20 cursor-pointer  text-center ">
+
+        <div>
+            <i class="  text-4xl text-indigo-400  bi-square"></i>
+            <p class=" text-slate-500 text-center px-4 p-2 "> Sizing</p>
+            
+        </div>
+        
+        <div>
+            <i class=" text-4xl text-indigo-400 bi bi-palette2"></i>
+            <p class="text-slate-500 text-center px-4 p-2"> Colors</p>
+        </div>
+
+        <div>
+            <i class=" text-4xl text-indigo-400 bi bi-vr"></i>
+            <p class="text-slate-500 text-center px-4 p-2"> Typography</p>
+        </div>
+
+        <div>
+            <i class=" text-4xl text-indigo-400 bi bi-shadows"></i>
+            <p class="text-slate-500 text-center px-4 p-2"> Shadows</p>
+        </div>
+    
+
+    </div>
+        
+</body>
+</html>

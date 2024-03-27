@@ -1,0 +1,18 @@
+
+
+
+.BlockDiv{
+    display: flex;
+    gap: 20px;
+    background-color: blue;
+    padding: 30px;
+    align-items: center;
+    justify-content: center;
+    
+     
+
+}
+.BlockDiv div{
+    background-color: wheat;
+    padding: 30px;
+}

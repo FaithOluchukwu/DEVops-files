@@ -1,0 +1,174 @@
+.blue{
+    color:blue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: line-through;
+}
+
+.red{
+    color: red;
+}
+
+.orange{
+    color: orange;
+}
+
+.teal{
+    color: teal;
+}
+
+.nav{
+    height: 60px;
+    background: teal;
+    width: 100%;
+}
+
+.box-1{
+    height: 95px;
+    width: 60vw;
+    color: white;
+    background-color: blue;
+    margin: 10px 20px;
+    padding: 10px 20px 30px 40px;
+    border-radius: 10px;
+}
+
+.box-2{
+    height: 95px;
+    width: 60vw;
+    color: white;
+    background-color: rebeccapurple;
+    margin: 10px 20px;
+    padding: 10px 20px 30px 40px;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+:start
+
+
+
+
+
+.bg{
+    background-image: url(https://theme.zdassets.com/theme_assets/678183/b7e9dce75f9edb23504e13b4699e208f204e5015.png);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.bg h1{
+    text-align: center;
+    font-size: 70px;
+    padding-top: 120px; 
+    color: white;
+}
+.bg p{
+    text-align: center;
+    font-size: 40px;
+    padding-top: 120px;
+    color: white;
+
+}
+
+.btn-holder{
+    text-align: center;
+    font-size: 40px;
+
+
+
+    
+}
+
+.btn{
+    display: inline-block;
+    background: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.btn-2{
+    display: inline-block;
+    background: black;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    color: white;
+
+
+}
+
+
+
+
+.btn:hover{
+    color:purple;
+}
+
+.test{
+    color :white;
+}
+
+.test:hover{
+    color:white;
+}    
+
+
+
+
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: 'Gill Sans';
+
+}
+nav{
+    background: #0082e6;
+    height: 80px;
+    width: 100px;
+    }
+    
+    
+    label.Logo{
+        color:black;
+        font-size: 35px;
+        line-height: 80px;
+        padding: 0 100px;
+        font-weight: bold;
+    }
+    
+    nav ul{
+    float: right;
+    margin-right: 20px;
+    
+    }
+    
+    nav ul li{
+    display: inline block;
+    line-height: 80px;
+    margin: 0 5px;
+    }
+    
+    nav ul li a{
+        color: white;
+        font-size: 17px;
+        text-transform: uppercase;
+    }
+

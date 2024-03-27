@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+p{
+    color: blue;
+}
+
+/* wrapper p{
+    color: red;
+}*/
+/*The tilde is used to select sibling element */
+
+.wrapper p{
+    color: green;
+}
+
+ul li{
+    color: red;
+}
+
+li:first-child{
+    color: purple;
+}
+
+li:first-child::first-letter{
+    font-size: 5rem;
+}
+
+li:last-child{
+    color: brown;
+}
+
+li:nth-child(2){
+    color: yellow;
+}
+
+/* give the 4th a fonts-family, a bigger font size font weight*/
+
+li:nth-last-child(4){
+    color: yellowgreen;
+    font-family: 'Franklin Gothic Medium';
+    font-size: 40px;
+    font-weight: 200;
+    text-decoration: underline;
+    font-style: italic;
+}
+.box-1{
+    height: 13rem;
+    width: 14rem;
+    background: green;
+    position: relative;
+    top: 3rem;
+    right: 10px;
+
+}
+
+.box-2{
+    height: 10rem;
+    width: 4rem;
+    background: red;
+    position: absolute;
+    resize: vertical;
+    transform: rotate(270deg);
+    right: 10px;
+    bottom: 10px;
+}
+.wrapper-2{
+    height: 40rem;
+    width: 58rem;
+    position: relative;
+    left: 20px;
+}
+
+img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+.mask{
+    height: 100%;
+    width: 100%;
+    background: black;
+    position: absolute;
+    top: 0;
+    opacity: .4;
+}
+
+.chat{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    text-align: center;
+    color: green;
+
+}
+
+    
+.Feedback{
+    color: white;
+    transform: rotate(270deg);
+    position: fixed;
+    right: 0;
+    bottom: 300px;
+    background: red;
+    text-align: center;
+    padding: 5px;
+    height: 2rem;
+    width: 9rem;
+    
+}   
+
+

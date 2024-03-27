@@ -1,0 +1,533 @@
+
+    body{
+        font-family: sans-serif;
+    }
+nav{
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+}
+nav .mainMenu{
+    display: flex;
+    list-style: none;
+}
+nav .mainMenu li a {
+    display: inline-block;
+    padding: 15px;
+    text-decoration: none;
+    text-transform: none;
+    color: black;
+    font-size: 1.5rem;
+}
+nav .mainMenu li a:hover{
+    background: rgb(0, 255, 64);
+}
+nav .openMenu{
+    font-size: 2rem;
+    margin: 20px;
+    display: none;
+    cursor: pointer;
+}
+nav .logo{
+    margin: 6px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+@media (max-width: 800px){
+    nav .mainMenu{
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 10;
+        flex-direction: column;
+        align-items: center;
+        background: white;
+        transition: top 1s ease;
+        display: none;
+    }
+    nav .mainMenu .closeMenu{
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+   nav .openMenu{
+    display: block;
+   }
+   nav .mainMenu li a:hover{
+    background: none;
+    font-size: 1.6rem;
+    color: rgb(0, 255, 64);
+
+   }
+}
+.Service-section{
+    width: 90%;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: whitesmoke;
+    
+   
+}
+.team-area{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    justify-items: center;
+    z-index: 1;
+}
+.team-area img{
+    border-radius: 15px;
+    
+}
+.team-text{
+    position: absolute;
+    top: 100px;
+    font-size: 14px;
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+
+}
+h3{
+    text-align: center;
+    text-decoration: solid;
+    font-size: 20px;
+
+    
+}
+p{
+    margin: 10px;
+    padding: 0 20px ;
+    padding-top: 5px;
+    justify-content: center;
+    
+}
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: whitesmoke;
+    width: 100%;
+    height: 650px;
+    background-color: whitesmoke;
+    display: flex;
+    position: relative;
+    padding: 30px;
+    gap: 30px;
+    justify-content: center;
+    
+}
+.sec1{
+    width: 60%;
+    max-height: 100%;
+    background-color: whitesmoke;
+   
+}
+.sub1{
+    height: 300px;
+    background-color: whitesmoke;
+    width: 90%;
+    margin: 20px;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    text-align: center;
+    
+    
+}
+.sub1 img{
+    border-radius: 15px;
+}
+.sub-1-1{
+    width: 500px;
+    background-color: whitesmoke;
+    height: 250px;
+    margin: 10px;
+    justify-content: space-around;
+    padding-left: 20px;
+    
+    
+}
+.image text{
+    position: absolute;
+    top: 100px;
+    font-size: 14px;
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+
+}
+.sec2{
+    width: 35%;
+    max-height: 100%;
+    background-color: whitesmoke;
+}
+.sub-1-1-1 img{
+    border-radius: 15px;
+}
+.team-text-1-1{
+    position: absolute;
+    top: 100px;
+    font-size: 15px;
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+
+}
+
+.team-text-1{
+    position: absolute;
+    top: 100px;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+
+}
+.team-text-1-2{
+    position: absolute;
+    top: 65%;
+    color: white;
+    font-weight: 400;
+    z-index: 1;
+    text-align: center;
+    font-size: 15px;
+
+}
+.sub1-1{
+    background-color: whitesmoke;
+    display: flex;
+    text-align: center;
+    padding-left: 25px;
+    
+}
+
+.sub1-1 img{
+    border-radius: 15px;
+}
+.sub1-1 .h4{
+    text-align: center;
+    text-decoration: solid;
+    font-size: 50px;
+}
+
+.image-holder{
+    margin-top: 80px;
+}
+
+.bg{
+    background-image: url(https://www.gloworld.com/themes/glo/assets/imgs/background/glo-tv-mobile.jpg); background-image: url(https://www.gloworld.com/themes/glo/assets/imgs/background/glo-tv.jpg);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+    
+.row img{
+    margin-top: 200px;
+    margin-left: 100px;
+}
+.row p {
+    color: white;
+    margin-left: 100px;
+    font-size: 16px;
+}
+.btn-holder{
+    margin-left: 120px ;
+    margin-top: 15px;
+}
+
+.btn{
+    display: inline-block;
+    margin: auto;
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.News-section{
+    margin-top: 250px;
+    text-align: center;
+    font-family: sans-serif;
+    align-items: stretch;
+}
+
+.News-section h5{
+    color: green;
+    font-size: 20px;
+}
+.News-section p{
+    margin: 10px;
+    padding: 0 100px ;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 25px;
+    
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    height: 220px;
+    margin: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+   
+  
+}
+
+
+
+.img-1{
+    width: 100%;
+    height: 220px;
+    object-position: center top;
+    border-style: none;
+    flex-shrink: 0;
+    border-bottom-left-radius: calc(.25rem-1px);
+    border-bottom-right-radius: calc(.25rem-1px);
+    object-fit: cover;
+    display: block;
+    object-position: center top;
+    
+}
+.test {
+    display: flex;
+    margin-top: 15px;
+    flex-direction: column;
+    font-size: 3rem;
+    font-weight: 500;
+    font-family: sans-serif;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    word-wrap: break-word;
+    color: #222;
+    text-align: left;
+    box-sizing: border-box;
+    vertical-align: middle;
+    background-color: transparent;
+    text-decoration: none;
+    
+
+    
+}
+.test p{
+    font-size: 15px;
+}
+
+/button{
+    margin-top: 100rem;
+    padding: .7rem 3.5rem;
+    height: max-content;
+    background: rebeccapurple;
+    color:white;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+
+}
+.btn-holder-1{
+    margin-top: 250px;
+    height: max-content;
+    color:white;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+}
+.wrapper:hover{
+    
+    cursor: pointer;
+
+}
+
+.box:hover{
+    transform: translate(3px);
+}
+.box:hover:before{
+    opacity: 2;
+}
+
+.bg-1{
+background-image: url(https://www.gloworld.com/themes/glo/assets/imgs/background/glo-cafe-mobile.png); background-image: url(https://www.gloworld.com/themes/glo/assets/imgs/background/glo-cafe.png);
+  display: flex;
+  align-items: start;
+background-position: right center;
+  min-height: 100vh;
+  min-height: 80vh;
+
+}
+
+.App-sec{
+    margin-top: 100px;
+    
+}
+.row-1{
+    margin-top: 200px;
+    margin-left: 700px;
+    text-align: justify;
+   justify-content: right;
+}
+.row-1 h8 {
+    font-family: sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+}
+.row-1 text p{
+    line-height: 3px;
+    font-size: 12px;
+    font-family: sans-serif; 
+}
+
+.icon{
+    display: flex;
+    gap: 10px;
+   
+}
+.Apple-Store {
+    width: 150px;
+    border-style: none;
+    box-sizing: border-box;
+}
+.google-play{
+    width: 150px;
+    border-style: none;
+    box-sizing: border-box;
+}
+
+.footer-section{
+    background-color: #222;
+    margin: 0;
+    padding: 70px 0;
+    box-sizing: border-box;
+}
+.f-container{
+    max-width: 1170px;
+    margin: auto;
+}
+.f-row{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul{
+    list-style: none;
+}
+.footer-col{
+    padding: 0 15px;
+}
+.footer-col h6{
+    font-size: 18px;
+    color: white;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 600;
+    font-family: sans-serif;
+    position: relative;
+    
+}
+.footer-col h6::before{
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    background-color: green;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+.footer-col ul li:not(:last-child){
+margin-bottom: 10px;
+}
+
+.footer-col ul li a{
+    font-size: 16px;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    display: block;
+    transition: all 0.3s ease;
+    text-align: justify;
+
+}
+.footer-col ul li a:hover{
+    color: green;
+}
+.social-links {
+    color: white;
+    padding: 0 10px 10px 0;
+    justify-content: right;
+    text-align: right;
+    margin-right: 30px;
+
+}
+.social-links a{
+    color: white;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.footer-col .social-links a:hover{
+    color: white;
+
+}
+/*responsive*/
+@media(max-width:967px){
+    .footer-col{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+@media(max-width:774px){
+    .footer-col{
+        width: 100%;
+        
+    }
+}
+
+.sticky-footer{
+    height: 170px;
+    background-color: green;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+   
+}
+.sticky-footer img{
+    display: flex;
+    margin-left: 50px;
+
+}
+.com-button{
+    background-color: rgb(92, 151, 92);
+    border-style: none;
+    border-radius: 50px;
+    font-size: 20px;
+    padding: 10px 15px;
+    justify-content: center;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+
+}
+.com-button a{
+    color: white;
+    font-size: 20px;
+}
+.s-text{
+    text-align: right;
+    margin-right: 20px;
+    
+}
+.s-text a{
+    text-decoration: none;
+    color: black;
+}

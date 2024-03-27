@@ -1,0 +1,712 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: sans-serif;
+    
+}
+nav{
+    background: green;
+    height: 80px;
+    width: 100%;
+
+}
+label.bar{
+    color: green;
+    background-color: white;
+    font-size: 12px;
+    line-height: 80px;
+    margin-left: 100px;
+    padding:  40px;
+    font-weight: bold;
+}
+label.bar-2{
+    color: white;
+    font-size: 12px;
+    line-height: 80px;
+    padding: 0 50px;
+    font-weight: bold;
+}
+
+nav ul{
+    float: right;
+    margin-right: 20px;
+    color: white;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+    color: white;
+}
+nav ul li a{
+    color: white;
+    font-size: 10px;
+    padding: 7px 13px;
+    
+}
+
+.checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
+
+
+@media(max-width: 952px){
+    label.bar{
+        font-size: 30px;
+        padding-left: 50px;
+    }
+    nav ul li a{
+        font-size: 16px;
+    }
+
+}
+@media(max-width: 858px){
+    .checkbtn{
+        display: block;
+}
+ul{
+   position: fixed;
+   width: 100%;
+   height: 100%;
+   background: white; 
+   top: 80px;
+   left: -100%;
+   text-align: center;
+   transition: all .5s;
+}
+nav ul li{
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+
+   }
+nav ul li a{
+    font-size: 10px;
+    color: white;
+}
+a:hover,a.active{
+    background: none;
+    color: white;
+}
+#check:checked ul{
+    left: 0;
+
+}
+    }
+   .button{
+    align-items: center;
+    gap: 2px;
+    border: none;
+    outline: none;
+    padding: 5px 9px;
+    border-radius: 50px;
+    background: white;
+    color: green;
+    position: relative;
+   }
+   .button:hover{
+    color: white;
+   }
+   
+   .menu_bar{
+    background-color: white;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5px;
+   }
+   .logo{
+    font-size: 30px;
+    margin-left: 100px;
+    padding:  40px;
+
+   }
+   .menu_bar ul{
+    list-style: none;
+    display: flex;
+   }
+   .menu_bar ul li{
+    padding: 10px 20px;
+    position: relative;
+
+   }
+   .menu_bar ul li a{
+    color:black ;
+    text-decoration: none;
+    font-size: 15px;
+
+    transition: all 0.5s;
+   }
+
+  
+   .menu_bar ul li a:hover{
+    color: green;
+   }
+  .dropdown__menu{
+    display: none;
+  }
+   
+  .menu_bar ul li:hover .dropdown__menu{
+    display: block;
+    font-size: 10px;
+    position: absolute;
+    left: 40;
+    background-color: white;
+    
+   }
+.dropdown__menu ul {
+    display: block;
+    margin: 10px;
+}
+.dropdown__menu ul li{
+    width: 100px;
+    padding: 10px;
+}
+
+.coverpage{
+    gap: 30px;
+    justify-content: center;
+}
+.hero-section{
+    text-align: center;
+    color: green;
+}
+
+.Service-section{
+    width: 90%;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: whitesmoke;
+    
+   
+}
+.team-area{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    justify-items: center;
+    padding-right: 30px;
+    
+    
+}
+.team-area img{
+    border-radius: 15px;
+    
+}
+.team-text{
+    position: absolute;
+    top: 100px;
+    font-size: 14px;
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+
+}
+h3{
+    text-align: center;
+    text-decoration: solid;
+    font-size: 20px;
+
+    
+}
+p{
+    margin: 10px;
+    padding: 0 20px ;
+    padding-top: 5px;
+    justify-content: center;
+    
+}
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: whitesmoke;
+    width: 100%;
+    height: 650px;
+    background-color: whitesmoke;
+    display: flex;
+    position: relative;
+    padding: 30px;
+    gap: 30px;
+    justify-content: center;
+    
+}
+.sec1{
+    width: 60%;
+    max-height: 100%;
+    background-color: whitesmoke;
+   
+}
+.sub1{
+    height: 300px;
+    background-color: whitesmoke;
+    width: 90%;
+    margin: 20px;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    text-align: center;
+    
+    
+}
+.sub1 img{
+    border-radius: 15px;
+}
+.sub-1-1{
+    
+    background-color: whitesmoke;
+    justify-content: space-around;
+    padding-left: 50px;
+    text-align: center;
+    
+    
+}
+.image text{
+    position: absolute;
+    top: 10px;
+    font-size: 14px;
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+
+}
+.sec2{
+    width: 35%;
+    max-height: 100%;
+    background-color: whitesmoke;
+}
+.sub-1-1-1 img{
+    border-radius: 15px;
+}
+.team-text-1-1{
+    position: absolute;
+    top: 100px;
+    font-size: 15px;
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+
+}
+
+.team-text-1{
+    position: absolute;
+    top: 100px;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+
+}
+.team-text-1-2{
+    position: absolute;
+    top: 80%;
+    color: white;
+    font-weight: 400;
+    text-align: center;
+    font-size: 13px;
+   
+
+}
+.sub1-1{
+    background-color: whitesmoke;
+    display: flex;
+    text-align: center;
+    padding-left: 25px;
+    
+}
+
+.sub1-1 img{
+    border-radius: 15px;
+}
+.h4{
+    text-align: center;
+    text-decoration: solid;
+    font-size: 50px;
+}
+
+.team-area:hover{
+    cursor: pointer;
+}
+.sec1:hover{
+    cursor: pointer;
+}
+.sub1:hover{
+    cursor: pointer;
+}
+.sub-1-1-1:hover{
+    cursor: pointer;
+}
+
+.box{
+    background-color: white;
+}
+.image-holder{
+    margin-top: 200px;
+    background-color: white;
+}
+.image-holder:hover{
+    cursor: pointer;
+}
+.location-section{
+    margin: 0px 0px 8px;
+    font-family: sans-serif;
+    text-align: center;
+}
+.location-text{
+    color: #4bb44e;
+    font-size: 32px;
+    margin-top: 100px;
+
+}
+.map{
+    text-align: center;
+    background-color: white;
+    margin-top: 20px;
+}
+.map:hover{
+    cursor: pointer;
+}
+
+.bg{
+    background-image: url(https://www.gloworld.com/themes/glo/assets/imgs/background/glo-tv-mobile.jpg); background-image: url(https://www.gloworld.com/themes/glo/assets/imgs/background/glo-tv.jpg);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+    
+.row img{
+    margin-top: 200px;
+    margin-left: 100px;
+}
+.row p {
+    color: white;
+    margin-left: 100px;
+    font-size: 16px;
+}
+.btn-holder{
+    margin-left: 120px ;
+    margin-top: 15px;
+}
+
+.btn{
+    display: inline-block;
+    margin: auto;
+    background-color: green;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.News-section{
+    margin-top: 250px;
+    text-align: center;
+    font-family: sans-serif;
+    align-items: stretch;
+}
+
+.News-section h5{
+    color: green;
+    font-size: 20px;
+}
+.News-section p{
+    margin: 10px;
+    padding: 0 100px ;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 25px;
+    
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    height: 220px;
+    margin: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+    cursor: pointer;
+   
+  
+}
+
+
+
+.img-1{
+    width: 100%;
+    height: 220px;
+    object-position: center top;
+    border-style: none;
+    flex-shrink: 0;
+    border-bottom-left-radius: calc(.25rem-1px);
+    border-bottom-right-radius: calc(.25rem-1px);
+    object-fit: cover;
+    display: block;
+    object-position: center top;
+}
+.test h7{
+    display: flex;
+    margin-top: 15px;
+    flex-direction: column;
+    font-size: 3rem;
+    font-weight: 500;
+    font-family: sans-serif;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    word-wrap: break-word;
+    color: #222;
+    text-align: left;
+    box-sizing: border-box;
+    vertical-align: middle;
+    background-color: transparent;
+    text-decoration: none;
+    
+
+    
+}
+.test p{
+    font-size: 15px;
+}
+
+
+.btn-holder-1{
+    margin-top: 250px;
+    height: max-content;
+    color:white;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+}
+
+.box:hover{
+    transform: translate(3px);
+}
+.box:hover:before{
+    opacity: 2;
+}
+
+
+.bg-1{
+    background-image: url(https://www.gloworld.com/themes/glo/assets/imgs/background/glo-cafe-mobile.png); background-image: url(https://www.gloworld.com/themes/glo/assets/imgs/background/glo-cafe.png);
+      display: flex;
+      align-items: start;
+    background-position: right center;
+      min-height: 100vh;
+      min-height: 80vh;
+      
+    
+    }
+    
+    .App-sec{
+        margin-top: 100px;
+        
+    }
+    .row-1{
+        margin-top: 200px;
+        margin-left: 700px;
+        text-align: justify;
+       justify-content: right;
+    }
+    .row-1 h8 {
+        font-family: sans-serif;
+        font-weight: 800;
+        font-size: 30px;
+    }
+    .row-1 text p{
+        line-height: 3px;
+        font-size: 12px;
+        font-family: sans-serif; 
+    }
+    
+    .icon{
+        display: flex;
+        gap: 10px;
+       
+    }
+    .Apple-Store {
+        width: 150px;
+        border-style: none;
+        box-sizing: border-box;
+    }
+    .google-play{
+        width: 150px;
+        border-style: none;
+        box-sizing: border-box;
+    }
+    
+    
+.footer-section{
+    background-color: #222;
+    margin: 0;
+    padding: 70px 0;
+    box-sizing: border-box;
+}
+.f-container{
+    max-width: 1170px;
+    margin: auto;
+}
+.f-row{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul{
+    list-style: none;
+}
+.footer-col{
+    padding: 0 15px;
+}
+.footer-col h6{
+    font-size: 18px;
+    color: white;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 600;
+    font-family: sans-serif;
+    position: relative;
+    
+}
+.footer-col h6::before{
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    background-color: green;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+.footer-col ul li:not(:last-child){
+margin-bottom: 10px;
+}
+
+.footer-col ul li a{
+    font-size: 16px;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    display: block;
+    transition: all 0.3s ease;
+    text-align: justify;
+
+}
+.footer-col ul li a:hover{
+    color: green;
+}
+.social-links {
+    color: white;
+    padding: 0 10px 10px 0;
+    justify-content: right;
+    text-align: right;
+    margin-right: 30px;
+
+}
+.social-links a{
+    color: white;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.footer-col .social-links a:hover{
+    color: white;
+
+}
+/*responsive*/
+@media(max-width:967px){
+    .footer-col{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+@media(max-width:774px){
+    .footer-col{
+        width: 100%;
+        
+    }
+}
+
+.sticky-footer{
+    height: 85px;
+    background-color: green;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+   
+}
+.sticky-footer img{
+    display: flex;
+    margin-left: 100px;
+    
+
+}
+.com-button{
+    visibility: visible;
+    overflow: visible;
+    text-transform: none;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    transition: color.15s ease-in-out;
+    transform: perspective(1px) translate(0);
+    box-shadow: 0 0 1px transparent;
+    transition-duration: .3s;
+    transition-property: box-shadow;
+    background-color: #4bb44e !important;
+    border-color: #4bb44e !important;
+    color: #ffffff;
+    display: inline-block;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    touch-action: manipulation;
+    background-image: none;
+    user-select: none;
+    border: none;
+    cursor: pointer;
+    line-height: 1.33;
+    margin: 0 4px;
+    width: 50px;
+    height: 50px;
+    padding: 13px 14px;
+    font-size: 20px;
+    border-radius: 20px;
+    margin-top: 30px;
+
+}
+.com-button a{
+    color: white;
+    font-size: 20px;
+    
+    
+}
+.s-text{
+    text-align: right;
+    margin-right: 20px;
+    margin-top: 65px;
+    
+}
+.s-text a{
+    text-decoration: none;
+    color: black;
+}
+    

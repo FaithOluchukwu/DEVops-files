@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.mainCard{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+}
+.mainCard div{
+    border: solid 1px gray;
+}
+
+.mainCard img{
+    width: 100%;
+
+}
