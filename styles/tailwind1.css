@@ -1,3 +1,43 @@
 *{
     background-color: rgb(15, 23, 42);
 }
+
+
+<div class="bg-zinc-900  ">
+
+    <div class=" ">
+        
+        <hi class="text-5xl text-white">Jumia</hi><span class=" text-2xl rounded-full bg-orange-500"><i class="fa-solid fa-star"></i></span>
+        <h1 class="text-white "> NEW TO JUMIA?</h1>
+            <ul class="  gap-6    text-white">
+                <li> Subscribe to our newsletter to get updates on our lastest offers</li>
+                <div class=" flex gap-6 ">
+                    <button class="bg-white text-gray-300 py-2 px-4 border-2  hover:border-orange-400 text-xl rounded-sm"> <span class="hover:text-orange-400"><i class="fa-solid fa-envelope"></i></span> Enter E-mail Address </button>
+                    <button class=" text-gray-300 py-2 px-4   hover:border-orange-400  border-white border-2 rounded-sm"> Male</button>
+                    <button class=" text-gray-300 py-2 px-4 hover:border-orange-400 border-white border-2 rounded-sm"> Female</button>
+                </div>
+            </ul>
+        
+
+        <div class="  text-white text-justify">
+            <button class=" text-justify"> <i class="fa-regular fa-square"></i> <span class="">agree to Jumia's privacy and Cookie Policy.You can unsubcribe from newsletters at <br>any time <br> I accept the Legal Terms </span> </button>
+        </div>
+
+        <div class=" flex gap-6">
+            <button class=" flex gap-6 bg-orange-500 px-2 py-2 rounded-md"> 
+            <span class=" text-2xl    rounded-full border-orange-500  bg-white text-orange-400"><i class="fa-solid fa-star"></i></span> </button>
+            <p> DOWNLOAD JUMIA FREE APP</p>
+            <P>Get access to exclusive offers</P>
+            <div>
+                <img src="Images/AppStoreBadge.615d20e2.png" alt="" class="bg-zinc-900">
+                <img src="Images/GooglePlayBadge.7395fff3.png" alt="" class="bg-zinc-900">
+            </div>
+                
+        </div>
+
+    </div>
+
+
+</div>
+   
+   
